@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "MUDkip" %></h2>
+  <p class="lead">A groundbreaking experience that<br />will leave you broken and destroyed.</p>
+</div>
