@@ -2,3 +2,17 @@
   <h2><%= gettext "Welcome to %{name}!", name: "MUDkip" %></h2>
   <p class="lead">A groundbreaking experience that<br />will leave you broken and destroyed.</p>
 </div>
+
+<div class="grid9">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+<div>6</div>
+<div>7</div>
+<div>8</div>
+<div>9</div>
+<div>0</div>
+<div>01</div>
+</div>
