@@ -1,16 +1,32 @@
 /* This file is for your main application css. */
+/* Viewport to define 100% of viewport */
+.mk-viewport{
+  max-height: 100vh;
+  max-width: 100vw;
+  margin:0px;
+}
+
 
 /* Gameboard grid */
+.mk-lo-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr); 
+}
+
+/* Map grid */
 .mk-grid-9{
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
-    background-color: lightblue;
-
+    background-color: darkgrey;
   }
+
+  /* colors and size for map*/
 .mk-grid-9 > div {
   background-color: green;
   height: 7rem;
   width: 7rem;
   margin-top: 1rem;
 }
+/*  Map grid end */
