@@ -1,3 +1,3 @@
-<form action="">
-<input type="text"> heihei
-</form>
+<div id="console" contenteditable="true">
+  We meet again brave source code warrior. Here's a little terminal style problem solving. Designed for some more advanced use on http://wearesmile.com/<br />&nbsp;<br />Documentation: type "help"<br />&nbsp;<br />>&nbsp;
+</div>
