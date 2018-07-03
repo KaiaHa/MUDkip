@@ -6,9 +6,11 @@
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
     background-color: lightblue;
+
   }
 .mk-grid-9 > div {
   background-color: green;
   height: 7rem;
   width: 7rem;
+  margin-top: 1rem;
 }
