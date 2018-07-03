@@ -1,7 +1,14 @@
 /* This file is for your main application css. */
 
-.grid9{
+/* Gameboard grid */
+.mk-grid-9{
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(9, 1fr);
     background-color: lightblue;
+  }
+.mk-grid-9 > div {
+  background-color: green;
+  height: 7rem;
+  width: 7rem;
+}

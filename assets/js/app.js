@@ -19,3 +19,22 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+document.addEventListener("keydown", keyDownHandler);
+//document.addEventListener("keyup", keyUpHandler);
+
+function keyDownHandler(e)
+{
+  if (e.keyCode ==39) {rightPressed = true; goRight();}
+  if (e.keyCode ==37) {leftPressed = true; goLeft();}
+  if (e.keyCode ==38) {upPressed = true; goUp();}
+  if (e.keyCode ==40) {downPressed = true; goDown();}
+}
+
+// function keyUpHandler(e)
+// {
+//   if (e.keyCode ==39) {rightPressed = false;}
+//   if (e.keyCode ==37) {leftPressed = false;}
+//   if (e.keyCode ==38) {upPressed = false;}
+//   if (e.keyCode ==40) {downPressed = false;}
+// }

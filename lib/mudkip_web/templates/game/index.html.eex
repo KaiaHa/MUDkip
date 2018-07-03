@@ -3,8 +3,8 @@
   <p class="lead">A groundbreaking experience that<br />will leave you broken and destroyed.</p>
 </div>
 
-<div class="grid9">
-<div>1</div>
+<div class="mk-grid-9">
+<div class="mk-red">1</div>
 <div>2</div>
 <div>3</div>
 <div>4</div>
@@ -13,6 +13,9 @@
 <div>7</div>
 <div>8</div>
 <div>9</div>
-<div>0</div>
-<div>01</div>
+<div>10</div>
+<div>11</div>
+<div>12</div>
+<div>13</div>
+<div>14</div>
 </div>
